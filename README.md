@@ -23,11 +23,23 @@ conda activate ToxiPredict
 
 Once the environment is properly created, we will install the python libraries we need to execute the code:
 ```
-conda install -c conda-forge rdkit pandas
+conda install -c conda-forge rdkit pandas numpy scikit-learn scikit-optimize
 ```
 ```
-conda install -c pytorch pytorch
+pip install joblib
 ```
-```
-conda install -c pyg pyg pytorch-scatter
-```
+
+## Project architecture
+
+The project is made in three parts:
+**Build and train an AI-based model to predict toxicity of organic molecules**
+**Generate new random molecules based on already existed organic molecules**
+**Apply the AI model on these new molecules**
+
+### Build and train an AI-based model to predict toxicity of organic molecules
+
+The project starts by building and training an AI-based model that allows us to predict the toxicity of any organic molecule, which is indeed the kernel of this project. To do that, we employed the following pipeline and implemented it within the [RandomForest_with_BO.py](RandomForest_with_BO.py) file:
+1. 
+2.
+3.
+
