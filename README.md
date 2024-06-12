@@ -61,6 +61,8 @@ The new molecules where we can test the code is stored in the [Generate_SMILES/s
 python Predict_toxicity.py
 ```
 
+## Conclusions
 
+This small project was designed to show how AI and combinatorial approaches for database curation can be used to tackle biochemical issues. This project will be enhanced in the future, for instance by adding more restraints in the SMILES generation or by adding more properties to predict (such as stability or solubility) by using other models that can be combined together at the end during the prediction process.
 
 
