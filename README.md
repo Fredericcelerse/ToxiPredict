@@ -39,7 +39,7 @@ The project is made in three parts:
 ### Build and train an AI-based model to predict toxicity of organic molecules
 
 The project starts by building and training an AI-based model that allows us to predict the toxicity of any organic molecule, which is indeed the kernel of this project. To do that, we employed the following pipeline and implemented it within the [RandomForest_with_BO.py](RandomForest_with_BO.py) file:  
-**1.1**  We took an already existed database, coming from the work of Setyia et al. ([https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00566-4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10826801/)). We called it here [SMILES_and_toxicity.csv](SMILES_and_toxicity.csv). The label 0 means that the molecule is non-toxic while 1 means that the molecule is toxic.
+**1.1**  We took an already existed database, coming from the work of Setyia et al. ([https://jcheminf.biomedcentral.com/articles/10.1186/s13321-021-00566-4](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10826801/)). We called it here [SMILES_and_toxicity.csv](SMILES_and_toxicity.csv). The label 0 means that the molecule is non-toxic while 1 means that the molecule is toxic.  
 **1.2**  We then load the data and convert each smiles by a fingerprint using the Morgan Fingerprints available in RDKit (https://www.rdkit.org/docs/GettingStartedInPython.html)  
 **1.3**  The data have to be of the same size and are then used to train a simple Random Forest model with initial hyperparameters  
 **1.4**  The hyperparameters are then optimized employing a Bayesian Optimization (BO, https://scikit-optimize.github.io/stable/auto_examples/bayesian-optimization.html)  
