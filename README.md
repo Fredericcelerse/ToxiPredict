@@ -32,9 +32,9 @@ pip install joblib
 ## Project architecture
 
 The project is made in three parts:
-**Build and train an AI-based model to predict toxicity of organic molecules**
-**Generate new random molecules based on already existed organic molecules**
-**Apply the AI model on these new molecules**
+**Build and train an AI-based model to predict toxicity of organic molecules**  
+**Generate new random molecules based on already existed organic molecules**  
+**Apply the AI model on these new molecules**  
 
 ### Build and train an AI-based model to predict toxicity of organic molecules
 
