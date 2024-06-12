@@ -51,7 +51,7 @@ python RandomForest_with_BO.py
 
 <figure>
   <img src="Images/Picture1.png" alt="Texte alternatif">
-  <figcaption>Screeshot after the execution of the script. We obtain a success rate of 85% in our prediction on the test set.</figcaption>
+  <figcaption>Screeshot after the execution of the script. We obtain a success rate of 79% in our prediction on the test set.</figcaption>
 </figure>
 
 ### Generate new random molecules based on already existed organic molecules
