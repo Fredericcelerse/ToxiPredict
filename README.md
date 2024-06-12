@@ -49,6 +49,11 @@ The project starts by building and training an AI-based model that allows us to 
 python RandomForest_with_BO.py
 ```
 
+<figure>
+  <img src="Images/Picture1.png" alt="Texte alternatif">
+  <figcaption>Légende de l'image</figcaption>
+</figure>
+
 ### Generate new random molecules based on already existed organic molecules
 
 Once the model is saved, we used the already existed SMILES stored in [SMILES_and_toxicity.csv](SMILES_and_toxicity.csv) to create a new set of organic molecules to test our model. To do that, we used the BRICS approach implemented in RDKit to fragmentate the SMILES and stored them in a new external file. We then recombined them randomly to create a new set of random molecules. For more details, see the directory [Generate_SMILES](Generate_SMILES)
