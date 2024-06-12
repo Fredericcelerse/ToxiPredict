@@ -51,7 +51,7 @@ python RandomForest_with_BO.py
 
 <figure>
   <img src="Images/Picture1.png" alt="Texte alternatif">
-  <figcaption>Légende de l'image</figcaption>
+  <figcaption>Screeshot after the execution of the script.</figcaption>
 </figure>
 
 ### Generate new random molecules based on already existed organic molecules
@@ -65,6 +65,11 @@ The new molecules where we can test the code is stored in the [Generate_SMILES/s
 ```
 python Predict_toxicity.py
 ```
+
+<figure>
+  <img src="Images/Picture2.png" alt="Texte alternatif">
+  <figcaption>Screeshot after the execution of the script.</figcaption>
+</figure>
 
 ## Conclusions
 
