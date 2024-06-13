@@ -1,12 +1,12 @@
-# Generation of new SMILES
+# Generation of New SMILES
 
-Through these two scripts, we aimed at creating a new small comobinatorial database in  order to test our AI model for the toxicity.  
+Through these two scripts, we aim to create a new small combinatorial database to test our AI model for toxicity.
 
-1. We first load the data from the [SMILES_and_toxicity.csv](../SMILES_and_toxicity.csv) file and stored only the SMILES
-2. We then use the BRICS algorithm from RDKit to fragmentate the SMILES in order tto create new fragments
-3. The new fragments are stored in an external file called [unique_fragments.txt](unique_fragments.txt)
-4. We then use this txt file to combine randomly two fragments together, and check the  chemical validity of each result
-5. Finally, the good molecules are stored in the external file [smiles_generated.csv](smiles_generated.csv)
+1. **Load Data**: We first load the data from the [SMILES_and_toxicity.csv](../SMILES_and_toxicity.csv) file and store only the SMILES.
+2. **Fragmentation**: We use the BRICS algorithm from RDKit to fragment the SMILES in order to create new fragments.
+3. **Store Fragments**: The new fragments are stored in an external file named [unique_fragments.txt](unique_fragments.txt)
+4. **Combine Fragments**: We then use this text file to randomly combine two fragments together and check the chemical validity of each result.
+5. **Store Valid Molecules**: Finally, the valid molecules are stored in the external file [smiles_generated.csv](smiles_generated.csv)
 
 ```
 python Fragmentation_BRICS.py
